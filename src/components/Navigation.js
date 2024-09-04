@@ -15,7 +15,7 @@ const Navigation = () => {
         {
             label: 'Recetas',
             icon: 'pi pi-apple',
-            url: '/RecipeList'
+            url: '/mis-recetas'
         },
         {
             label: 'Contacto',
@@ -37,12 +37,12 @@ const Navigation = () => {
         {
             label: 'Ingresar',
             icon: 'pi pi-user',
-            url: '/Login'
+            url: '/Inicio-sesion'
         },
         {
             label: 'Registrarme',
             icon: 'pi pi-user-plus',
-            url: '/Register'
+            url: '/Registro'
         }
     ];
 

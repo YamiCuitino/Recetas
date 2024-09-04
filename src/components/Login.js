@@ -19,7 +19,7 @@ const Login = () => {
             // Almacenar el token o cualquier dato relevante
             localStorage.setItem('token', 'some-auth-token');
             console.log('Login exitoso');
-            navigate('/recetas'); // Redirigir a la página de recetas después del inicio de sesión exitoso
+            navigate('/'); 
         } else {
             setError('Credenciales incorrectas');
         }

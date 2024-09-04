@@ -11,7 +11,7 @@ const Home = ({ setDialogAddRecipe }) => {
       <p>
         {isAuthenticated
           ? "¡Hola, usuario! Puedes gestionar tus recetas aquí."
-          : "Por favor, inicia sesión o regístrate para acceder a todas las funciones."}
+          : "Por favor, inicia sesion o registrate para acceder a todas las funciones."}
       </p>
       {isAuthenticated && (
         <Button

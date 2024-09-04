@@ -22,7 +22,7 @@ const Register = () => {
         localStorage.setItem('password', password);
 
         // Redirigir a la página de inicio de sesión después del registro exitoso
-        navigate('/login');
+        navigate('/Inicio-sesion');
     };
 
     return (
